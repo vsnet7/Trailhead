@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <isExposed>true</isExposed>
+
+    <targets>
+        <!-- Internal Lightning App Builder (optional) -->
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+
+        <!-- Experience Cloud (add these) -->
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+
+    <targetConfigs>
+        <!-- Make properties editable in both builders -->
+        <targetConfig targets="lightning__RecordPage,lightning__AppPage,lightning__HomePage,
+                              lightningCommunity__Default">
+            <property name="iconName" type="String" label="Icon Name" default="utility:apps"/>
+            <property name="menuAlignment" type="String" label="Menu Alignment (left/right)" default="left"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

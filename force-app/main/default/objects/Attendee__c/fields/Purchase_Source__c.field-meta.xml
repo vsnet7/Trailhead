@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purchase_Source__c</fullName>
+    <description>Where the attendee bought the ticket</description>
+    <label>Purchase Source</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Box Office</fullName>
+                <default>false</default>
+                <label>Box Office</label>
+            </value>
+            <value>
+                <fullName>Official Website</fullName>
+                <default>false</default>
+                <label>Official Website</label>
+            </value>
+            <value>
+                <fullName>3rd Party Vendor</fullName>
+                <default>false</default>
+                <label>3rd Party Vendor</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Admission_tickets_sold__c</fullName>
+    <description>Total general admission tickets sold</description>
+    <label>General Admission tickets sold</label>
+    <summarizedField>Attendee__c.Tickets_Purchased__c</summarizedField>
+    <summaryFilterItems>
+        <field>Attendee__c.Ticket_Type__c</field>
+        <operation>equals</operation>
+        <value>General Admission</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Attendee__c.Festival__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

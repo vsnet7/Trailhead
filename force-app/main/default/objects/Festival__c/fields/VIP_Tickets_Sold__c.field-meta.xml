@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VIP_Tickets_Sold__c</fullName>
+    <description>Number of VIP tickets sold</description>
+    <label>VIP Tickets Sold</label>
+    <summarizedField>Attendee__c.Tickets_Purchased__c</summarizedField>
+    <summaryFilterItems>
+        <field>Attendee__c.Ticket_Type__c</field>
+        <operation>equals</operation>
+        <value>VIP</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Attendee__c.Festival__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

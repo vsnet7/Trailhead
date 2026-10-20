@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Genre__c</fullName>
+    <description>Music Genre</description>
+    <label>Genre</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rock and Roll</fullName>
+                <default>true</default>
+                <label>Rock and Roll</label>
+            </value>
+            <value>
+                <fullName>Electronic</fullName>
+                <default>false</default>
+                <label>Electronic</label>
+            </value>
+            <value>
+                <fullName>Contemporary</fullName>
+                <default>false</default>
+                <label>Contemporary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

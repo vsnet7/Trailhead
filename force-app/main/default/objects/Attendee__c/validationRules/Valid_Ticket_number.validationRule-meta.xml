@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_Ticket_number</fullName>
+    <active>true</active>
+    <description>Sell 1 or more tickets</description>
+    <errorConditionFormula>Tickets_Purchased__c &gt; 8  ||  Tickets_Purchased__c &lt; 1</errorConditionFormula>
+    <errorMessage>You have to buy between 1 and 8 tickets</errorMessage>
+</ValidationRule>

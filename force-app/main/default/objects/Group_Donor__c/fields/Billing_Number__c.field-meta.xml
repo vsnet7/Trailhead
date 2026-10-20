@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Number__c</fullName>
+    <description>Credit card number, checking account number, paypal number</description>
+    <inlineHelpText>Credit card number, checking account number, paypal number</inlineHelpText>
+    <label>Billing Number</label>
+    <length>175</length>
+    <maskChar>asterisk</maskChar>
+    <maskType>lastFour</maskType>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>EncryptedText</type>
+</CustomField>

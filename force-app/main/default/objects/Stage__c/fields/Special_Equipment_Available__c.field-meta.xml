@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Equipment_Available__c</fullName>
+    <label>Special Equipment Available</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lasers</fullName>
+                <default>false</default>
+                <label>Lasers</label>
+            </value>
+            <value>
+                <fullName>Pyrotechnics</fullName>
+                <default>false</default>
+                <label>Pyrotechnics</label>
+            </value>
+            <value>
+                <fullName>Smoke machines</fullName>
+                <default>false</default>
+                <label>Smoke machines</label>
+            </value>
+            <value>
+                <fullName>Multiple drum sets</fullName>
+                <default>false</default>
+                <label>Multiple drum sets</label>
+            </value>
+            <value>
+                <fullName>Extra sub woofers</fullName>
+                <default>false</default>
+                <label>Extra sub woofers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

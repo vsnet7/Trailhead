@@ -1,0 +1,16 @@
+<template>
+    <div class="custom-menu">
+        <lightning-button-icon
+            icon-name={iconName}
+            alternative-text="Menu"
+            onclick={toggleMenu}
+        ></lightning-button-icon>
+
+        <template if:true={isMenuOpen}>
+            <div class="menu" style={menuStyle}>
+                <lightning-menu-item label="Option A" value="A" onclick={handleSelect}></lightning-menu-item>
+                <lightning-menu-item label="Option B" value="B" onclick={handleSelect}></lightning-menu-item>
+            </div>
+        </template>
+    </div>
+</template>

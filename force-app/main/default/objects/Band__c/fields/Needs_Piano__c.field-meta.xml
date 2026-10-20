@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Needs_Piano__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>DO they need a piano</description>
+    <label>Needs Piano</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

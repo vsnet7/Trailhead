@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Donation__c</fullName>
+    <label>Max Donation</label>
+    <summarizedField>Donation__c.Donation_Amount__c</summarizedField>
+    <summaryForeignKey>Donation__c.Candidate__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
